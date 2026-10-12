@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">منظم الدراسة والمهام</string>
+    <string name="app_tagline">خطط، أنجز، حقق أهدافك</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">الرئيسية</string>
+    <string name="nav_tasks">المهام</string>
+    <string name="nav_calendar">التقويم</string>
+    <string name="nav_categories">الفئات</string>
+    <string name="nav_statistics">الإحصائيات</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="nav_search">البحث</string>
+
+    <!-- Generic actions -->
+    <string name="action_save">حفظ</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_edit">تعديل</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_add">إضافة</string>
+    <string name="action_back">رجوع</string>
+    <string name="action_search">بحث</string>
+    <string name="action_retry">إعادة المحاولة</string>
+    <string name="action_login">تسجيل الدخول</string>
+    <string name="action_create_account">إنشاء حساب</string>
+    <string name="action_mark_complete">وضع علامة مكتملة</string>
+    <string name="action_mark_incomplete">إلغاء الإكمال</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting">مرحباً بك</string>
+    <string name="dashboard_total_tasks">إجمالي المهام</string>
+    <string name="dashboard_completed_tasks">المهام المكتملة</string>
+    <string name="dashboard_pending_tasks">المهام المتبقية</string>
+    <string name="dashboard_upcoming">المهام القادمة</string>
+    <string name="dashboard_add_task">إضافة مهمة جديدة</string>
+    <string name="dashboard_no_upcoming">لا توجد مهام قادمة حالياً</string>
+    <string name="dashboard_completion_rate">نسبة الإنجاز</string>
+
+    <!-- Task list -->
+    <string name="task_list_title">قائمة المهام</string>
+    <string name="filter_all">الكل</string>
+    <string name="filter_pending">قيد التنفيذ</string>
+    <string name="filter_completed">المكتملة</string>
+    <string name="empty_task_list">لا توجد مهام. اضغط زر الإضافة لإنشاء مهمة جديدة.</string>
+    <string name="task_pending">قيد التنفيذ</string>
+    <string name="task_completed">مكتملة</string>
+
+    <!-- Add / edit task -->
+    <string name="add_task_title">إضافة مهمة</string>
+    <string name="edit_task_title">تعديل مهمة</string>
+    <string name="field_title">عنوان المهمة</string>
+    <string name="field_description">وصف المهمة</string>
+    <string name="field_due_date">تاريخ الاستحقاق</string>
+    <string name="field_due_time">وقت الاستحقاق</string>
+    <string name="field_priority">مستوى الأولوية</string>
+    <string name="field_category">الفئة</string>
+    <string name="field_repeat">تكرار المهمة</string>
+    <string name="field_reminder">تفعيل التذكير</string>
+    <string name="hint_title">اكتب عنوان المهمة</string>
+    <string name="hint_description">اكتب وصفاً مختصراً (اختياري)</string>
+    <string name="error_title_required">عنوان المهمة مطلوب</string>
+    <string name="task_saved">تم حفظ المهمة</string>
+    <string name="task_updated">تم تحديث المهمة</string>
+
+    <!-- Task details -->
+    <string name="task_details_title">تفاصيل المهمة</string>
+    <string name="details_due">الموعد النهائي</string>
+    <string name="details_status">الحالة</string>
+    <string name="details_repeat">التكرار</string>
+    <string name="details_reminder">التذكير</string>
+    <string name="reminder_on">مفعّل</string>
+    <string name="reminder_off">غير مفعّل</string>
+    <string name="confirm_delete_title">تأكيد الحذف</string>
+    <string name="confirm_delete_message">هل أنت متأكد من حذف هذه المهمة؟ لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="task_deleted">تم حذف المهمة</string>
+
+    <!-- Calendar -->
+    <string name="calendar_title">التقويم</string>
+    <string name="calendar_tasks_for_day">مهام اليوم المحدد</string>
+    <string name="calendar_no_tasks">لا توجد مهام في هذا اليوم</string>
+
+    <!-- Categories -->
+    <string name="categories_title">الفئات</string>
+    <string name="category_tasks_count">%1$d مهمة</string>
+    <string name="category_add">إضافة فئة</string>
+    <string name="category_name">اسم الفئة</string>
+    <string name="category_edit">تعديل فئة</string>
+    <string name="category_color">اللون</string>
+    <string name="category_delete_in_use_title">فئة قيد الاستخدام</string>
+    <string name="category_delete_in_use_message">تحتوي هذه الفئة على مهام. اختر فئة لنقل المهام إليها قبل الحذف.</string>
+    <string name="category_reassign_to">نقل المهام إلى</string>
+    <string name="category_deleted">تم حذف الفئة</string>
+    <string name="category_saved">تم حفظ الفئة</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_notifications">تفعيل الإشعارات</string>
+    <string name="settings_sound">أصوات التذكير</string>
+    <string name="settings_default_reminder">وقت التذكير الافتراضي</string>
+    <string name="settings_theme">المظهر</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_backup">نسخ احتياطي واستعادة</string>
+    <string name="settings_backup_export">تصدير نسخة احتياطية</string>
+    <string name="settings_backup_import">استعادة نسخة احتياطية</string>
+    <string name="settings_backup_success">تم إنشاء النسخة الاحتياطية</string>
+    <string name="settings_backup_restored">تمت استعادة البيانات</string>
+    <string name="settings_backup_error">تعذر إكمال العملية</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="theme_system">حسب النظام</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_english">English</string>
+    <string name="settings_about">حول التطبيق</string>
+    <string name="settings_about_text">منظم الدراسة والمهام — نسخة 1.0</string>
+    <string name="settings_reminder_5">قبل 5 دقائق</string>
+    <string name="settings_reminder_15">قبل 15 دقيقة</string>
+    <string name="settings_reminder_30">قبل 30 دقيقة</string>
+    <string name="settings_reminder_60">قبل ساعة</string>
+
+    <!-- Statistics -->
+    <string name="statistics_title">الإحصائيات</string>
+    <string name="stats_total">إجمالي المهام</string>
+    <string name="stats_completed">المكتملة</string>
+    <string name="stats_pending">المتبقية</string>
+    <string name="stats_completion_rate">نسبة الإنجاز</string>
+    <string name="stats_by_category">التوزيع حسب الفئات</string>
+    <string name="stats_period">الفترة</string>
+    <string name="period_all">الكل</string>
+    <string name="period_week">هذا الأسبوع</string>
+    <string name="period_month">هذا الشهر</string>
+
+    <!-- Search -->
+    <string name="search_title">البحث</string>
+    <string name="search_hint">ابحث بعنوان المهمة</string>
+    <string name="search_no_results">لا توجد نتائج مطابقة</string>
+    <string name="search_prompt">اكتب كلمة للبحث عن المهام</string>
+
+    <!-- Login -->
+    <string name="login_title">تسجيل الدخول</string>
+    <string name="login_email">البريد الإلكتروني</string>
+    <string name="login_password">كلمة المرور</string>
+    <string name="login_error_email">أدخل بريداً إلكترونياً صحيحاً</string>
+    <string name="login_error_password">كلمة المرور يجب أن تكون 6 أحرف على الأقل</string>
+    <string name="login_skip">المتابعة دون حساب</string>
+    <string name="login_name">الاسم</string>
+</resources>
